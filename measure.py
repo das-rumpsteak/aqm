@@ -47,8 +47,8 @@ def Measure():
 	ser.open()
 	ser.flushInput()
 	
-	f = open("/home/pi/Desktop/AQM/alldata.csv", "+a") #change the file location here if you want to save all the data
-	
+	f = open("/alldata.csv", "+a") #change the file location here if you want to save all the data
+
 	try:
 		pm25data = []
 		pm10data = []
